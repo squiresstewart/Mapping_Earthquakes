@@ -29,11 +29,9 @@ let map = L.map('mapid',{
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-// // Accessing the Toronto airline routes GeoJSON URL.
-// let torontoData = "https://raw.githubusercontent.com/squiresstewart/Mapping_Earthquakes/main/torontoRoutes.json";
-// Accessing the Toronto neighborhoods GeoJSON URL.
-let torontoHoods = "https://raw.githubusercontent.com/squiresstewart/Mapping_Earthquakes/main/torontoNeighborhoods.json";
 
+// Accessing the Toronto neighborhoods GeoJSON URL.
+let torontoHoods = "https://raw.githubusercontent.com/squiresstewart/Mapping_Earthquakes/main/torontoNeighborhoods.json"
 // Create a style for the lines.
 let myStyle = {
   color: "#ffffa1",
